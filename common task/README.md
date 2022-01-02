@@ -22,11 +22,12 @@
   - NODE_MOD = Development
   - PORT = 3000
   - TOKEN_SECRET = ntehidklwo85942mnkaleo4rtd2e6
-3. Open XAMPP and start the Apache and MySQL server.
-4. Open a terminal and navigate to the project.
-5. Run `npm install` to install the dependencies.
-6. Run `npm run data:import` to import some sample data.
-7. Run `npm run server`
+3. Import the postman collection and environment files in Postman.
+4. Open XAMPP and start the Apache and MySQL server.
+5. Open a terminal and navigate to the project.
+6. Run `npm install` to install the dependencies.
+7. Run `npm run data:import` to import some sample data.
+8. Run `npm run server`
 
 ## NPMs used
 
@@ -45,6 +46,13 @@ npm 'nodemon'
 This app contains 4 APIs to login,sign up, create and edit user.
 It contains some mock data to get started and middlewares to handle errors and authentication.
 The APIs are shared in postman folder and can be easily imported in the mentioned program.
+
+### APIs: 
+The below APIs are shared in postman:
+- Login: POST http://localhost:3000/api/users/login
+- Sign up: POST http://localhost:3000/api/users/register
+- Create User: POST http://localhost:3000/api/users/create
+- Edit User: PUT http://localhost:3000/api/users/edit/:id
 
 ### Node.js Life Cycle: 
 - The view controller accepts a user event, constructs a request object, and send it to the route.
