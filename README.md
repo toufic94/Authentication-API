@@ -66,3 +66,4 @@ The below APIs are shared in postman:
 - [x] Middlewares
 - [x] Mock Data
 - [x] Error Handling
+- [x] ES6 Modules
